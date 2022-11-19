@@ -10,7 +10,7 @@ const server = http.createServer((req, res) =>
     {
     res.write('<html>');
     res.write('<head><title>my first page</title></head>');
-    res.write('<body><form action="/m" method="POST"><input type="text" name="message"></input ><button type="submit">send</button> </form></body>');
+    res.write('<body><form action="/message" method="POST"><input type="text" name="message"></input ><button type="submit">send</button> </form></body>');
     
      return res.end();
     }
